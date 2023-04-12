@@ -1,4 +1,4 @@
-# Wetland_Methanotrophs_PHA
+# PHA-accumulating Methanotrophs from Freshwater Wetlands
 Data and analysis code for the manuscript "Resource availability governs Polyhydroxyalkanoate Accumulation and Diversity of Methanotrophic Enrichments from Wetlands" by Yujin Kim, Zachary Flinkstrom, Pieter Candry, Mari Winkler, Jaewook Myung.
 
 ## Image Analysis
@@ -12,7 +12,8 @@ Data and analysis code for the manuscript "Resource availability governs Polyhyd
 
 ## 16S rRNA Sequencing Analysis
 * `16S_sequencing/usearch_pipeline.ipynb` contains usearch commands and output used for processing raw sequencing data (which can be accessed from ncbi Bioproject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA954053)
+  * Note: because the raw sequencing reads are not hosted in this repository, the file paths in the usearch commands will need to be checked before running in your local environment
 * `16S_sequencing/16S_data_plotting.ipynb` contains python code for processing and plotting 16S rRNA sequencing data
-* `16S_sequencing/data` contains zero-radius OTU (ZOTU) count and taxonomy data output from usearch
+* `16S_sequencing/data` contains zero-radius OTU (ZOTU) count and taxonomy data output from usearch used for plotting
 * `16S_sequencing/figures`contains taxonomy bar plots, alpha-diversity, and beta-diversity figures ouput from the data plotting notebook 
 * `16S_sequencing/output` contains normalized ZOTU table data combined with taxonomy for all samaples
