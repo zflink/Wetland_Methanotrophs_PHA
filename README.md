@@ -1,5 +1,5 @@
 # PHA-accumulating Methanotrophs from Freshwater Wetlands
-Data and analysis code for the manuscript "Resource availability governs Polyhydroxyalkanoate Accumulation and Diversity of Methanotrophic Enrichments from Wetlands" by Yujin Kim, Zachary Flinkstrom, Pieter Candry, Mari Winkler, Jaewook Myung.
+Data and analysis code for the manuscript ["Resource availability governs Polyhydroxyalkanoate Accumulation and Diversity of Methanotrophic Enrichments from Wetlands"](https://www.frontiersin.org/articles/10.3389/fbioe.2023.1210392/full) by Yujin Kim, Zachary Flinkstrom, Pieter Candry, Mari Winkler, Jaewook Myung.
 
 ## Image Analysis
 * `Image_analysis/imageJ_scripts` contains ImageJ Macro scripts for processing the raw multichannel microscopic images (which can be downloaded as a zip file from the manuscript)
